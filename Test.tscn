@@ -1,0 +1,19 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 158, 320 )
+polygon = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[node name="Polygon2D2" type="Polygon2D" parent="."]
+position = Vector2( 613, 322 )
+polygon = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
+
+[node name="Polygon2D3" type="Polygon2D" parent="."]
+position = Vector2( 267, 21 )
+polygon = PoolVector2Array( 0, 0, 256, 0, 256, 256, 0, 256 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 400.013, 225.397 )
+current = true
